@@ -23,6 +23,7 @@ fichero cgenerator.zip
 -	 compruebe que CGenerator esté bien instalado, abra la ventana de comando y ejecue cgenerator -version
 
 
+
 # Sintaxis
 
 
@@ -47,6 +48,33 @@ cgenerator -help
 
 Generación de artefactos para el frontend y backend de una aplicación, basado en el objeto product
 cgenerator project1 art-front, art-back product
+
+
+
+# Fichero de configuración
+
+token: <granted token>
+onPromiseConfiguration:
+	driver: <database drive>
+url: <database url>
+user: <database user>
+password: <database password>
+excludedFields:<comma separator columns to exclude from process.
+artifacts:
+ - id: "<artifact identifier>"
+  		 templates:
+     - code: "<unique code"
+       outputpath: "<generation output path >"
+       data:
+       filename: "<template file>"
+       postfix: "<result filename postfix>"
+       prefix: "<result filename prefix>"
+       rewritable: "<true/false>"
+globaConfigurations:
+<key>:<value>
+mapData:
+<key>:<value>
+
 
 
 
