@@ -3,7 +3,7 @@ package org.platkmframework.cgenerator.cli.configuration;
 import java.io.Serializable;
 import java.util.List;
 
-public class GenConfiguration implements Serializable {
+public class Artifact implements Serializable {
 	
 	/**
 	 * 

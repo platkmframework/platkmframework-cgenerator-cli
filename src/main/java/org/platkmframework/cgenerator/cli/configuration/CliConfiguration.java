@@ -8,18 +8,17 @@ public class CliConfiguration {
 	
 	private String token;
 	private OnPromiseConfiguration onPromiseConfiguration;
-	private List<GenConfiguration> genConfigurations;
+	private List<Artifact> artifacts;
 	private Map<String, String> globaConfigurations;
-	private Map<String, String> mapData;
+	private Map<Object, Object> mapData;
 	private Map<String, String> globalProperties;
     
-	public List<GenConfiguration> getGenConfigurations() {
-		return genConfigurations;
+	public List<Artifact> getArtifacts() {
+		return artifacts;
 	}
-	public void setGenConfigurations(List<GenConfiguration> genConfigurations) {
-		this.genConfigurations = genConfigurations;
+	public void setArtifacts(List<Artifact> artifacts) {
+		this.artifacts = artifacts;
 	}
-
 	public String getToken() {
 		return token;
 	}
@@ -39,12 +38,12 @@ public class CliConfiguration {
 	public void setGlobaConfigurations(Map<String, String> globaConfigurations) {
 		this.globaConfigurations = globaConfigurations;
 	}
-	public Map<String, String> getMapData() {
+	public Map<Object, Object> getMapData() {
 		if(this.mapData == null) this.mapData = new HashMap<>();
 		return mapData;
 	}
 	
-	public void setMapData(Map<String, String> mapData) {
+	public void setMapData(Map<Object, Object> mapData) {
 		this.mapData = mapData;
 	}
 	
