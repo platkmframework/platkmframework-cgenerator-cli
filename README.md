@@ -9,6 +9,7 @@ Sitio web: https://jdk.java.net
 
 -	Agregue la variable de entorno JAVA_HOME, ejemplo JAVA_HOME=c:\java_20
 -	 agregue en la variable de entorno “Path” el camino donde colocó el OpenJDK, ejemplo Path: .....;c:\java_20\bin
+-	 Compruebe que la versión esté instalada. Abra la ventana de comando y ejecute java -version.
 
 
 
@@ -19,6 +20,9 @@ fichero cgenerator.zip
 
 -	Agregar variable de entorno CGENERATOR_HOME, ejemplo  CGENERATOR_HOME=d:\instalaciones\platkmframework\cgenerator
 -	 agregue en la variable de entorno “Path” el camino donde colocó el cgenerator, ejemplo Path: .....;d:\instalaciones\platkmframework\cgenerator\bin
+-	 compruebe que CGenerator esté bien instalado, Abra la ventana de comando y ejecue cgenerator -version
+
+
 
 
  
