@@ -1,7 +1,7 @@
-# platkmframework-cgenerator-cli
+# A platkmframework-cgenerator-cli
 
 
-# Instalación
+## A Instalación
 
 1- Descargar OpenJDK versión 20 o superior
 
@@ -24,7 +24,7 @@ fichero cgenerator.zip
 
 
 
-# Sintaxis
+## A Sintaxis
 
 
 Generación de código basado en estructuras de base de datos.
@@ -51,7 +51,7 @@ cgenerator project1 art-front, art-back product
 
 
 
-# Fichero de configuración
+## A Fichero de configuración
 
 token: <granted token>
 onPromiseConfiguration:
@@ -79,6 +79,6 @@ mapData:
 
 
  
-Hash
+## A Hash
 ----
 617065BC8E0B7DFA0D64FB6071CBB52F1FA5E599FB2158D3A11286394912B45F
