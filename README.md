@@ -1,7 +1,7 @@
 # platkmframework-cgenerator-cli
 
 
-#Instalación
+# Instalación
 
 1- Descargar OpenJDK versión 20 o superior
 
