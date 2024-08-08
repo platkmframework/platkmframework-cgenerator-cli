@@ -20,8 +20,33 @@ fichero cgenerator.zip
 
 -	Agregar variable de entorno CGENERATOR_HOME, ejemplo  CGENERATOR_HOME=d:\instalaciones\platkmframework\cgenerator
 -	 agregue en la variable de entorno “Path” el camino donde colocó el cgenerator, ejemplo Path: .....;d:\instalaciones\platkmframework\cgenerator\bin
--	 compruebe que CGenerator esté bien instalado, Abra la ventana de comando y ejecue cgenerator -version
+-	 compruebe que CGenerator esté bien instalado, abra la ventana de comando y ejecue cgenerator -version
 
+
+# Sintaxis
+
+
+Generación de código basado en estructuras de base de datos.
+
+config-folder: carpeta de configuración del proyecto
+artifacts: artefactos a procesar
+object: nombre de la tabla de base de datos.
+-prop: propiedades adicionales.
+
+cgenerator <config-folder> <artifacts1, artifacts2…n> <object> -prop key1=value1,value2;key2=value21,value22;...n
+
+Ejemplos
+
+versión
+cgenerator -v
+cgenerator -version
+
+ayuda
+cgenerator -h
+cgenerator -help
+
+Generación de artefactos para el frontend y backend de una aplicación, basado en el objeto product
+cgenerator project1 art-front, art-back product
 
 
 
