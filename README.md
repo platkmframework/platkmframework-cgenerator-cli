@@ -23,12 +23,9 @@ fichero cgenerator.zip
 -	Agregar variable de entorno ```CGENERATOR_HOME```
 
   
-  	 ```CGENERATOR_HOME=d:\instalaciones\platkmframework\cgenerator```
--	 agregue en la variable de entorno ```Path``` el camino donde colocó el cgenerator,
-
- 
- 	```Path= .....;d:\instalaciones\platkmframework\cgenerator\bin```  
--	 compruebe que CGenerator esté bien instalado, abra la ventana de comando y ejecue
+  	 ```CGENERATOR_HOME=<your path>\cgenerator```
+-	 agregue en la variable de entorno ```Path``` el camino donde colocó el cgenerator, ```Path=.....;<your path>\cgenerator\bin```  
+-	 compruebe que CGenerator esté bien instalado, abra la ventana de comando y ejecute
 
  
  	```cgenerator -version```.
