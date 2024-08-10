@@ -20,10 +20,18 @@ Sitio web: https://jdk.java.net
 Sitio web: https://github.com/platkmframework/platkmframework-cgenerator-cli
 fichero cgenerator.zip
 
--	Agregar variable de entorno ```CGENERATOR_HOM```E, ejemplo  ```CGENERATOR_HOME=d:\instalaciones\platkmframework\cgenerator```
+-	Agregar variable de entorno ```CGENERATOR_HOME```
+
+  
+  	 ```CGENERATOR_HOME=d:\instalaciones\platkmframework\cgenerator```
 -	 agregue en la variable de entorno ```Path``` el camino donde colocó el cgenerator,
-ejemplo ```Path= .....;d:\instalaciones\platkmframework\cgenerator\bin```
--	 compruebe que CGenerator esté bien instalado, abra la ventana de comando y ejecue ```cgenerator -version```.
+
+ 
+ 	```Path= .....;d:\instalaciones\platkmframework\cgenerator\bin```  
+-	 compruebe que CGenerator esté bien instalado, abra la ventana de comando y ejecue
+
+ 
+ 	```cgenerator -version```.
 
 
 
@@ -80,6 +88,7 @@ artifacts:
        postfix: "<result filename postfix>"
        prefix: "<result filename prefix>"
        rewritable: "<true/false>"
+       resultFileName: "<the real file name, this attribute is optional>"
 globaConfigurations:
 <key>:<value>
 mapData:
