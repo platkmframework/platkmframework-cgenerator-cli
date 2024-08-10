@@ -9,9 +9,14 @@
 Sitio web: https://jdk.java.net
 
 -	Agregue la variable de entorno ```JAVA_HOME```, ejemplo
-  	```JAVA_HOME=c:\java_20```
--	 agregue en la variable de entorno ```Path``` el camino donde colocó el OpenJDK, ejemplo ```Path= .....;c:\java_20\bin```
--	 Compruebe que la versión esté instalada. Abra la ventana de comando y ejecute ```java -version```.
+  
+  	```JAVA_HOME=<your path>\java_20```
+-	 agregue en la variable de entorno ```Path``` el camino donde colocó el OpenJDK, ejemplo
+
+       ```Path= .....;<your path>\java_20\bin```
+-	 Compruebe que la versión esté instalada. Abra la ventana de comando y ejecute
+
+       ```java -version```
 
 
 
