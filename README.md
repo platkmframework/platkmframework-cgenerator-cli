@@ -45,7 +45,7 @@ fichero cgenerator.zip
 Generación de código basado en estructuras de base de datos.
 
 - 	**config-folder** : carpeta de configuración del proyecto
--	**artifact** s: artefactos a procesar
+-	**artifacts** : artefactos a procesar
 -	**object** : nombre de la tabla de base de datos.
 -	**-prop** : propiedades adicionales.
 
