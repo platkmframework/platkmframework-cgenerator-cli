@@ -92,7 +92,7 @@ artifacts:
        postfix: "<result filename postfix>"
        prefix: "<result filename prefix>"
        rewritable: "<true/false>"
-       resultFileName: "<the real file name, this attribute is optional>"
+       resultFileName: "<The result fileName. If template set forceFileName, the resultFileName will not be used. This attribute is optional>"
 globaConfigurations:
 <key>:<value>
 mapData:
