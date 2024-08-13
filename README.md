@@ -44,13 +44,14 @@ fichero cgenerator.zip
 
 Generación de código basado en estructuras de base de datos.
 
-- 	**config-folder** : carpeta de configuración del proyecto
--	**artifacts** : artefactos a procesar
+- 	**config-folder** : carpeta de configuración del proyecto.
+- 	**type** : tipo objecto a procesar. Ejemplo, -database, -swagger, -collection, -object
+-	**artifacts** : artefactos a procesar.
 -	**object** : nombre de la tabla de base de datos.
 -	**-prop** : propiedades adicionales.
 
 ```
-cgenerator <config-folder> <artifacts1, artifacts2…n> <object> -prop key1=value1,value2;key2=value21,value22;...n
+cgenerator <config-folder> <type> <artifacts1, artifacts2…n> <object> -prop key1=value1,value2;key2=value21,value22;...n
 ```
 
 Ejemplos
@@ -69,7 +70,7 @@ cgenerator -help
 
 Ejemplo de generación de artefactos para el frontend y backend de una aplicación, basado en el objeto product
 ```
-cgenerator project1 art-front,art-back product
+cgenerator project1 -database art-front,art-back product
 ```
 
 
@@ -88,7 +89,7 @@ artifacts:
      - code: "<unique code"
        outputpath: "<generation output path >"
        data:
-       filename: "<template file>"
+       outputFileName: "<template file>"
        postfix: "<result filename postfix>"
        prefix: "<result filename prefix>"
        rewritable: "<true/false>"
