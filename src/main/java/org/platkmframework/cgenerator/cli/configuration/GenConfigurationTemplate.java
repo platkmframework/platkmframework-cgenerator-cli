@@ -6,12 +6,13 @@ public class GenConfigurationTemplate {
 	
 	private String code;
 	private String outputpath;
+	private String outputFileName;
 	private Map<String, String> data;
-	private String filename;
+	private String templatePath;
 	private String prefix;
-	private String postfix;
+	private String suffix;
+	private String fileExtension;
 	private String rewritable;
-	private String resultFileName;
 	
 	public String getCode() {
 		return code;
@@ -25,11 +26,12 @@ public class GenConfigurationTemplate {
 	public void setOutputpath(String outputpath) {
 		this.outputpath = outputpath;
 	} 
-	public String getFilename() {
-		return filename;
+
+	public String getTemplatePath() {
+		return templatePath;
 	}
-	public void setFilename(String filename) {
-		this.filename = filename;
+	public void setTemplatePath(String templatePath) {
+		this.templatePath = templatePath;
 	}
 	public String getPrefix() {
 		return prefix;
@@ -37,11 +39,12 @@ public class GenConfigurationTemplate {
 	public void setPrefix(String prefix) {
 		this.prefix = prefix;
 	}
-	public String getPostfix() {
-		return postfix;
+ 
+	public String getSuffix() {
+		return suffix;
 	}
-	public void setPostfix(String postfix) {
-		this.postfix = postfix;
+	public void setSuffix(String suffix) {
+		this.suffix = suffix;
 	}
 	public String getRewritable() {
 		return rewritable;
@@ -55,11 +58,17 @@ public class GenConfigurationTemplate {
 	public void setData(Map<String, String> data) {
 		this.data = data;
 	}
-	public String getResultFileName() {
-		return resultFileName;
+	public String getFileExtension() {
+		return fileExtension;
 	}
-	public void setResultFileName(String resultFileName) {
-		this.resultFileName = resultFileName;
+	public void setFileExtension(String fileExtension) {
+		this.fileExtension = fileExtension;
+	}
+	public String getOutputFileName() {
+		return outputFileName;
+	}
+	public void setOutputFileName(String outputFileName) {
+		this.outputFileName = outputFileName;
 	}
 
 }
